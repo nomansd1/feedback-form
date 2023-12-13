@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+:root {
+    --primary-color: #2c54b7;
+    --secondary-color: #f7f7f7;
+}
+
+.fd__container {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+
+.fd__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: .5rem 2rem;
+    color: #ffffff;
+}
+
+.fd__headerInfo h1 {
+    font-size: 1.165rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+}
+.fd__headerInfo p {
+    font-size: .9rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 1.25;
+}
+.fd__userAvatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.fd__body {
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.fd__queName {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.25;
+}
+
+.fd__queImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem 0;
+}
+
+.fd__queImage img {
+    width: 200px;
+    height: 200px;
+}
+
+.fd__queFormBx {
+    width: 100%;
+    flex: 1;
+    background-color: green;
+}
